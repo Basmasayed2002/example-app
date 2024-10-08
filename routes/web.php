@@ -52,4 +52,4 @@ Route::get('/planets', [PlanetController::class, 'index']);
 Route::get('/planets/{planet}', [PlanetController::class, 'show']);
 
 Route::get('/dbplanets', [UserController::class, 'index']);
-?>n
+?>
