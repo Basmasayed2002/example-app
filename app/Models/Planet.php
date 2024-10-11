@@ -6,15 +6,15 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\QueryException;
 
-class SolarSystem extends Model
+class Planet extends Model
 {
     use HasFactory;
 
-    protected $table = 'solar_systems';
+    protected $table = 'planets';
 
-    public function planets()
+    public function solarSystem()
     {
-        return $this->hasMany(Planet::class);
+        return $this->belongsTo(SolarSystem::class);
     }
 }
 
