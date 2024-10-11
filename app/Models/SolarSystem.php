@@ -18,7 +18,7 @@ Class SolarSystem extends Model
     }
 }
 
-class Planet extends Model
+Class Planet extends Model
 {
     use HasFactory;
 
