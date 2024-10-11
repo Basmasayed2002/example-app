@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\QueryException;
 
-class SolarSystem extends Model
+Class SolarSystem extends Model
 {
     use HasFactory;
 
